@@ -1,28 +1,25 @@
-# Dependencies
-markdown:         redcarpet
-pygments:         true
-
 # Permalinks
-permalink:        pretty
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
 
 # Setup
 title:            Hyeyeon
 tagline:          'A Jekyll theme'
 description:      'I'm Hyeyeon, interested in E-commerce and Product Management. Contact me <a href="imyeonn@gmail.com" target="_blank">imyeonn@gmail.com</a>.'
 url:              https://imyeonn.github.io/
+baseurl:             ''
+paginate:            1
 
+# About/contact
 author:
-  name:           Hyeyeon
-  email:          imyeonn@gmail.com
+  name:              Hyeyeon
+  email:             imyeonn@gmail.com
 
-# 페이지 당 n개의 포스트 보여주기
-paginate:         1
+# Custom vars
+version:             1.0.0
 
-# Custom vars 
-version:          2.0.0
-
-github:
-  repo:           https://github.com/imyeonn/imyeonn.github.io
 
 # 추가 내용
 disqus:           true
