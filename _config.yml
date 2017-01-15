@@ -1,11 +1,11 @@
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
+permalink:           'pretty'
 relative_permalinks: true
 
 # Setup
-title:            Hyeyeon
+title:            'Hyeyeon'
 tagline:          'A Jekyll theme'
 description:      'I'm Hyeyeon, interested in E-commerce and Product Management. Contact me <a href="imyeonn@gmail.com" target="_blank">imyeonn@gmail.com</a>.'
 url:              https://imyeonn.github.io/
